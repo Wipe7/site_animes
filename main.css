@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-size: 28px;
+    padding: 16px 0;
+    background-color: #0a0102;
+    color: #96121d;
+}
+
+header {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+header h1,
+section h2
+section h3 {
+    font-weight: normal;
+}
+
+body, input,textarea {
+    font-family: 'roboto', sans-serif;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 12px;
+    font-size: 24px;
+    justify-content: space-between;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    display: inline;
+    text-decoration: none;
+}
+
+.cabeçalho {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blackclover {
+    display: inline-table;
+    margin: 0;
+    margin-top: 8px;
+    max-width: 800px;
+    margin-left: 12px;
+}
+
+.capablackclover {
+    max-width: 800px;
+    margin: 0;
+    margin-top: 8px;
+}
+
+.animes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kimetsunoyaiba {
+    display: inline-table;
+    margin: 0;
+    margin-top: 8px;
+    max-width: 800px;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.capakimetsu {
+    max-width: 800px;
+    margin: 0;
+    margin-top: 8px;
+}
+
+
+.brands-list img {
+    height: 48px;
+    margin-right: 8px;
+}
+
+.brands-list li {
+    display: inline;
+}
+
+section .container
+{
+    align-items: flex-start;
+}
+
+
+
+section h2 {
+    margin-bottom: 16px;
+    margin-top: 17px;
+    color:  #e25e5e;
+    font-size: 28px;
+}
+
+section {
+    color: #182c61;
+}
+
+section p {
+    margin-bottom: 8px;
+    font-size: 22px;
+}
+
+.store-front {
+    margin-right: 36px;
+    margin-top: 17px;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container{
+    display: block;
+    margin-left: 12px;
+}
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color:#96121d ;
+    color: #ecf0f1;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #96121d;
+    color: #0a0102;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #96121d,
+    0 0 25px #96121d,
+    0 0 50px #96121d,
+    0 0 100px #96121d
+}
+
+
+input:focus, textarea:focus {
+    outline-color: #182c61;
+}
+
+footer {
+    background-color:#0a0102 ;
+    color: #96121d;
+    padding: 16px 0;
+}
